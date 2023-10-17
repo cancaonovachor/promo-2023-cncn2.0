@@ -32,7 +32,7 @@ const Header = (props) => {
           {/* <p>1st Session 13:00-14:00</p>
         <p>2nd Session 14:00-15:30</p>
         <p>3rd Session 15:30-16:30</p> */}
-          <h2>design creative center KOBE KIITO</h2>
+          <h2>Design and Creative Center Kobe KIITO</h2>
           <div style={{ height: '1rem' }}></div>
           <h1>チケット販売まで</h1>
           <h1>
