@@ -4,10 +4,12 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import '../assets/scss/main.scss'
 
-const Head = ({title, metas}) => (
+const Head = ({ title, metas }) => (
   <>
     <title>{title}</title>
-    {metas.map(({name, content}, index) => (<meta key={index} name={name} content={content} />) )}
+    {metas.map(({ name, content }, index) => (
+      <meta key={index} name={name} content={content} />
+    ))}
   </>
 )
 
@@ -41,12 +43,12 @@ const Layout = ({ children, location }) => {
         metas={[
           {
             name: 'description',
-            content: 'CancaoNova Chorus Next 1.0 promotion page',
+            content: 'CancaoNova Chorus Next 2.0 promotion page',
           },
           {
             name: 'keywords',
             content:
-              'sample, something, cancaonova, カンサォンノーヴァ, カンサォン・ノーヴァ, cancaonovachor, 演奏会, chorus next',
+              'sample, something, cancaonova, カンサォンノーヴァ, カンサォン・ノーヴァ, cancaonovachor, 演奏会, chorus next, CNCN2.0, cncn2',
           },
         ]}
       />
