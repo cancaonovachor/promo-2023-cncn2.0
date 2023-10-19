@@ -28,7 +28,7 @@ const Header = (props) => {
             音源 / 動画予約受付中
           </a>
         </h2> */}
-          <h2>2023.3.12(sun)</h2>
+          <h2>2024.3.10 (sun.) </h2>
           {/* <p>1st Session 13:00-14:00</p>
         <p>2nd Session 14:00-15:30</p>
         <p>3rd Session 15:30-16:30</p> */}
