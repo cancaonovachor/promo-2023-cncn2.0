@@ -1,20 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import pic02 from '../images/shirotokamojinashi.png'
+import pic02 from '../images/shirotokamojinashi.png'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Countdown from './util/Countdown'
 
 const Header = (props) => {
   const target = new Date('2023-12-02T00:00:00') // ここに目標の日時を設定
   return (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-      {/* <div className="logo">
+      <div className="logo">
       <a href="https://cancaonovachor.com/">
         <img src={pic02} alt="" />
       </a>
-    </div> */}
+    </div>
       <div className="content">
         <div className="inner">
           <h1>CancaoNova Chorus Next 2.0</h1>
@@ -28,19 +28,14 @@ const Header = (props) => {
             音源 / 動画予約受付中
           </a>
         </h2> */}
-          <h2>2024.3.10 (sun.) </h2>
-          {/* <p>1st Session 13:00-14:00</p>
+          <h2>2024.3.10 (sun.) 13:00- (open 12:30) </h2>
+          <p>1st Session 13:00-14:00</p>
         <p>2nd Session 14:00-15:30</p>
-        <p>3rd Session 15:30-16:30</p> */}
+        <p>3rd Session 15:30-16:30</p>
           <h2>Design and Creative Center Kobe KIITO</h2>
-          <div style={{ height: '1rem' }}></div>
-          <h1>チケット販売まで</h1>
-          <h1>
-            <Countdown targetDate={target} />
-          </h1>
         </div>
       </div>
-      {/* <nav>
+      <nav>
       <ul>
         <li>
           <a
@@ -85,12 +80,11 @@ const Header = (props) => {
             // href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
             // target="_blank"
           >
-            Ticket
-            ここはコメントアウトだった Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+            Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /> 
           </a>
         </li>
       </ul>
-    </nav> */}
+    </nav>
     </header>
   )
 }

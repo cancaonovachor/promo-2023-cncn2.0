@@ -40,9 +40,8 @@ class Main extends React.Component {
               <iframe width="560" height="315" src="https://www.youtube.com/embed/TMVrcz3AG7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
             </div>
-          <p><a className="use-border" href="https://cancaonovachor.com/">カンサォン・ノーヴァ</a>創団以来初となるコンサート。</p>
-          <p>テクノロジーの力で、次世代の合唱の形を提案する演奏会を開催します。</p>
-          <p>Live配信やデジタルアートと合唱の融合など、新しい演奏会のスタイルで挑戦します。</p>
+          <p>合唱団<a className="use-border" href="https://cancaonovachor.com/">CancaoNova</a>2回目の定期演奏会</p>
+          <p>私たちが選んだ珠玉の名曲と培ってきたテクノロジーの力を活用し、合唱の今と未来を描き出します。</p>
           <p>ステージ情報は <a className="use-border" href="javascript:;" onClick={async () => {
             await this.props.onCloseArticle();
             this.props.onOpenArticle('stage');
@@ -62,7 +61,7 @@ class Main extends React.Component {
           <span className="image-main main">
             <img src={zentai} alt="" />
           </span>
-          <h3>1st Session: Contest Selection</h3>
+          <h3>1st Session</h3>
           <p>支部制を活かしながら様々なコンクールに出場している我々が、
           今年1年コンクールのために練り上げた様々な曲を、詳細な解説とあわせてお届けします。
           ルネサンスから近現代までの「受け継いできた合唱」をご堪能ください。
@@ -70,39 +69,58 @@ class Main extends React.Component {
           <p>入場料￥2500 前売り￥2000
           <br></br>時間：13:00〜</p>
           <p>演奏予定曲：
-          <br></br>・Vecchie Letrose(Adrian Willaert)
-          <br></br>・Surrexit pastor bonus(Giovanni Pierluigi da Palestrina)
-          <br></br>・Viel werden kommen von Morgen und von Abend(Heinrich Schütz)
-          <br></br>・Sammelt zuvor das Unkraut(Heinrich Schütz)
-          <br></br>・Ave Maria(Josquin des prez)
-          <br></br>・Quatre petites prières de saint François d’Assise(Francis Poulenc)
-          <br></br>・Chanson à boire(Francis Poulenc)
-          <br></br>・Beati Mortui(Felix Mendelssohn Bartholdy)
-          <br></br>・Thou my love, art fair(Bob Chilcott)
-          <br></br>・Ave Maria(Lin Ming-Chieh)
+          <br></br>・Kyrie (William Byrd)
+          <br></br>・Agnus dei (William Byrd)
+          <br></br>・Viel Werden Kommen von Morgen und Abend (Heinrich Schutz)
+          <br></br>・Sammlet zuvor das Unkraut (Heinrich Schutz)
+          <br></br>・Beati Mortui (Felix Mendelssohn Bartholdy)
+          <br></br>・Die Minnesänger (Robert Schumann)
+          <br></br>・Fröhlich im Maien (Richard Strauss)
+          <br></br>・Tenebrae (Marcus Ludwig)
+          <br></br>・Salut, Dame Sainte (Francis Poulenc)
+          <br></br>・Tout Puissant (Francis Poulenc)
+          <br></br>・Seigneur, je vous en prie (Francis Poulenc)
+          <br></br>・Ô mes très chers fréres (Francis Poulenc)
+          <br></br>・煙草の時II (若林千春)
+          <br></br>・金魚 (多田武彦)
+          <br></br>・The Alphabet (Ligeti György)
+          <br></br>・Khorumi (Mamia Khatelishvili)
           </p>
           
           <span className="image-main main">
             <img src={secoundSession} alt="" />
           </span>
-          <h3>2nd Session: Co-Creation</h3>
-          <p>様々なゲストをお招きして「今ここにある合唱」を皆さんとともに考えます。地元の美味しいコーヒーとチョコレートを片手に、特別ゲストとの座談会、各地の合唱団の演奏、パネルディスカッションなどの企画をお楽しみください。
+          <h3>2nd Session</h3>
+          <p>全国的な活動を通じて知り合ってきた様々なゲストとともに、今年も「今ここにある合唱」を描き出し、皆さんとともに考えます。西宮の美味しいコーヒーとチョコレート、米粉スイーツを堪能しつつ、特別ゲストとの座談会、全国各地の合唱団の演奏、パネルディスカッションなど多様な企画をお楽しみください。
           </p>
           <p>料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜</p>
 
           <h3>合唱協賛</h3>
-          <b>しゃち子。</b>
-          <span className="image-main main">
-            <img src={shachiko} alt="" />
-          </span>
-          <p>名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！</p>
 
           <b>Ti Amo</b>
           <span className="image-main main">
             <img src={tiamo} alt="" />
           </span>
           <p>アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。</p>
+
+          <b>Volare</b>
+          <span className="image-main main">
+            <img src={tiamo} alt="" />
+          </span>
+          <p>紹介文をここに記載</p>
+
+          <b>しゃち子。</b>
+          <span className="image-main main">
+            <img src={shachiko} alt="" />
+          </span>
+          <p>名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！</p>
+
+          <b>花みずき</b>
+          <span className="image-main main">
+            <img src={tiamo} alt="" />
+          </span>
+          <p>紹介文をここに記載</p>
           
 
           <h3>飲食協賛</h3>
@@ -140,14 +158,22 @@ class Main extends React.Component {
           <br></br>
           <br></br>を目指して、日々丁寧に
           <br></br>取り組んでいます。
+          <br></br>
+          <br></br>
+          <b>米粉 sweets Kinun</b>
+          <span className="image-main main">
+            <img src={yuge} alt="" />
+          </span>
+          <br></br>紹介文をここに記載
           </p>
 
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
           </span>
-          <h3>3rd Session: Chorus × NewMusic</h3>
-          <p>デジタルアートという切り口で、我々が考える「ひとつ先の合唱」を提示します。
-          ポピュラーミュージックとの深い融合、映像作品とのインタラクションなど、合唱のまだ見ぬ可能性を感じていただければと思います。</p>
+          <h3>3rd Session</h3>
+          <p>CancaoNovaが考える新しい合唱の形を皆様に提案します。
+          音楽とテクノロジーが融合したステージをどうぞお楽しみください。
+          </p>
           <p>入場料￥2500 前売り￥2000
           <br></br>時間： 15:30〜</p>
           <p> 演奏予定曲：
