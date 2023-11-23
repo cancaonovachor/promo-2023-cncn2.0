@@ -80,7 +80,8 @@ const Header = (props) => {
             // href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
             // target="_blank"
           >
-            Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /> 
+            Ticket
+            {/* Ticket <FontAwesomeIcon icon={faExternalLinkAlt} />  */}
           </a>
         </li>
       </ul>

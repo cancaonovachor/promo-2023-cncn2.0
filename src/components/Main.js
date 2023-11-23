@@ -7,7 +7,7 @@ import yuge from '../images/yuge.jpg'
 import shachiko from '../images/shachiko.jpg'
 import tiamo from '../images/tiamo.jpg'
 import haishin from '../images/cncn1.0-haishin.jpg'
-import nyujo from '../images/cncn1.0-nyuujo.jpeg'
+import nyujo from '../images/cncn2.0-nyuujo.png'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -211,18 +211,18 @@ class Main extends React.Component {
           <h2 className="major">Ticket</h2>
           <h3>入場チケット (PassMarket)</h3>
           <span className="image-main main">
-          <a href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html" target="_blank">
+          <a href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html" target="_blank">
             <img src={nyujo} alt=""  />
             </a>
           </span>
           <p>
             演奏会への入場チケットは
-          <a className="use-border" href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html" target="_blank">こちら</a>
+          <a className="use-border" href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html" target="_blank">こちら</a>
           <br/>
           デジタルアートと合唱の融合など、新しい演奏会のスタイルを是非とも現場にてお聞き下さい。
           </p>
           <br/>
-          <h3>配信チケット (ZAIKO)</h3>
+          {/* <h3>配信チケット (ZAIKO)</h3>
           <span className="image-main main">
           <a className="use-border" href="https://zaiko.io/event/354406" target="_blank">
             <img src={haishin} alt="" />
@@ -230,10 +230,10 @@ class Main extends React.Component {
           </span>
           <p>
           配信チケットは
-          <a className="use-border" href="https://zaiko.io/event/354406" target="_blank">こちら</a>
+          <a className="use-border" href="" target="_blank">こちら</a>
           <br/>
           遠方にお住まいの方や当日現地にお越し頂けない方も、こちらよりライブ配信を視聴いただけます。
-          </p>
+          </p> */}
           {close}
         </article>
       </div>
