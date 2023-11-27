@@ -37,8 +37,7 @@ class Main extends React.Component {
         >
           <h2 className="major">CONCEPT</h2>
             <div class="youtube">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/TMVrcz3AG7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XZyK2k2tf7g?si=qU1ybeh1kcflq0Bx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           <p>合唱団<a className="use-border" href="https://cancaonovachor.com/">CancaoNova</a>2回目の定期演奏会</p>
           <p>私たちが選んだ珠玉の名曲と培ってきたテクノロジーの力を活用し、合唱の今と未来を描き出します。</p>
