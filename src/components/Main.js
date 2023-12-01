@@ -173,7 +173,7 @@ class Main extends React.Component {
           <br></br>取り組んでいます。
           <br></br>
           <br></br>
-          <b>米粉 sweets Kinun</b>
+          <b>Kinun.</b>
           <span className="image-main main">
             <img src={kinun} alt="" />
           </span>
@@ -198,6 +198,7 @@ class Main extends React.Component {
           <p>時間： 15:30〜</p>
           <p> 演奏予定曲：
           <br></br>デジタルアートステージ
+          <br></br>・Digital Poliphony (下薗大樹)
           <br></br>・Sederunt (Perotin)
           <br></br>・Hinbarra (Michael McGlynn)
           <br></br>・Ut queant laxis (Orland di Lasso)
