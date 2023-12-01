@@ -7,7 +7,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Countdown from './util/Countdown'
 
 const Header = (props) => {
-  // const target = new Date('2023-12-02T00:00:00') // ここに目標の日時を設定
+  // const target = new Date('2023-12-02T21:00:00') // ここに目標の日時を設定
   return (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
       <div className="logo">
