@@ -8,6 +8,10 @@ import shachiko from '../images/shachiko.jpg'
 import tiamo from '../images/tiamo.jpg'
 import haishin from '../images/cncn1.0-haishin.jpg'
 import nyujo from '../images/cncn2.0-nyuujo.png'
+import kinun from '../images/kinun.jpg'
+import hanamizuki from '../images/hanamizuki.jpg'
+import manderart from '../images/manderart.jpg'
+import volare from '../images/volare.jpeg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -66,7 +70,10 @@ class Main extends React.Component {
           ルネサンスから近現代までの「受け継いできた合唱」をご堪能ください。
           </p>
           <p>入場料￥2500 前売り￥2000
-          <br></br>時間：13:00〜</p>
+          <br></br>※前売り価格は2/9 23:59までです。
+          <br></br>※学生の方は全期間を通して各料金から500円引きです。
+          </p>
+          <p>時間：13:00〜</p>
           <p>演奏予定曲：
           <br></br>・Kyrie (William Byrd)
           <br></br>・Agnus dei (William Byrd)
@@ -94,7 +101,7 @@ class Main extends React.Component {
           </p>
           <p>料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜</p>
-
+          <br/>
           <h3>合唱協賛</h3>
 
           <b>Ti Amo</b>
@@ -102,26 +109,33 @@ class Main extends React.Component {
             <img src={tiamo} alt="" />
           </span>
           <p>アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。</p>
-
+          <br/>
           <b>Volare</b>
           <span className="image-main main">
-            <img src={tiamo} alt="" />
+            <img src={volare} alt="" />
           </span>
-          <p>紹介文をここに記載</p>
-
+          <p>こんにちは！　合唱団Volareです。長田高校音楽部のOB・OG合唱団として発足して早15年。現代曲とポップスアレンジを中心に楽しく歌っています♪</p>
+          <br/>
           <b>しゃち子。</b>
           <span className="image-main main">
             <img src={shachiko} alt="" />
           </span>
           <p>名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！</p>
-
+          <br/>
           <b>花みずき</b>
           <span className="image-main main">
-            <img src={tiamo} alt="" />
+            <img src={hanamizuki} alt="" />
           </span>
-          <p>紹介文をここに記載</p>
+          <p>尼崎市立立花中学校合唱部の卒業生により2006年に結成。現在は、兵庫県だけでなく全国からメンバーが集い、酒井輝美の音楽観のもと、日々「花みずき」らしい音楽表現を追求している。 第4回東京国際合唱コンクール室内部門にて1位金賞および最優秀課題曲賞を受賞し、グランプリコンクールに出場。同年、作曲家Javier Busto 氏、作曲家Ambrož Čopi 氏によるレッスンを受ける。</p>
+          <br/>
+          <b>Man de rart</b>
+          <span className="image-main main">
+            <img src={manderart} alt="" />
+          </span>
+          <p>「王道」な男声合唱曲で滾る演奏をしたいというコンセプトのもと、2023年3月に出来た男声合唱団。
+第76回全日本合唱コンクール(大学ユースの部)にて文部科学大臣賞受賞。</p>
           
-
+<br/>
           <h3>飲食協賛</h3>
           <b>ICHIJI</b>
           <span className="image-main main">
@@ -161,9 +175,13 @@ class Main extends React.Component {
           <br></br>
           <b>米粉 sweets Kinun</b>
           <span className="image-main main">
-            <img src={yuge} alt="" />
+            <img src={kinun} alt="" />
           </span>
-          <br></br>紹介文をここに記載
+          <br></br>生まれ育った愛知県田原市産の米粉・玄米粉を中心に
+          <br></br>生産者さんの顔のみえる食材を使いお菓子を作っています。
+          <br></br>兵庫神戸 花隈に小さなアトリエを構え、
+          <br></br>見てかわいい、聞いて安心、食べておいしい
+          <br></br>「心も体も笑顔になれる米粉sweets」をお届けしています。
           </p>
 
           <span className="image-main main">
@@ -174,14 +192,17 @@ class Main extends React.Component {
           音楽とテクノロジーが融合したステージをどうぞお楽しみください。
           </p>
           <p>入場料￥2500 前売り￥2000
-          <br></br>時間： 15:30〜</p>
+          <br></br>※前売りは2/9 23:59までです。
+          <br></br>※3rd Sessionには学生割引は存在しません、ご承知おきください。
+          </p>
+          <p>時間： 15:30〜</p>
           <p> 演奏予定曲：
-          <br></br>・男声合唱編曲ポップス曲集 (編曲:下薗大樹, 詳細曲目は当日乞うご期待！)
-          <br></br>・Digital Polyphony (下薗大樹, 全曲初演)
-          <br></br>・The Alphabet (György Ligeti)
-          <br></br>・Kalkadunga Yurdu (William Barton)
-          <br></br>・第２ヴォカリーズ (武満徹)
-          <br></br>・NyonNyon (Jake Runestad)
+          <br></br>デジタルアートステージ
+          <br></br>・Sederunt (Perotin)
+          <br></br>・Hinbarra (Michael McGlynn)
+          <br></br>・Ut queant laxis (Orland di Lasso)
+          <br></br>・Solfeggio (Arvo Pärt)
+          <br></br>・Proverb (Steve Reich)
           </p>
           {close}
         </article>
