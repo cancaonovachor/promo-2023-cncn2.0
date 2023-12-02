@@ -14,6 +14,8 @@ import manderart from '../images/manderart.jpg'
 import volare from '../images/volare.jpeg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
+import kawata from '../images/kawata.png'
+import odorimai from '../images/odorimai.jpg'
 
 class Main extends React.Component {
   render() {
@@ -120,6 +122,18 @@ class Main extends React.Component {
             <br></br>・The Alphabet (Ligeti György)
             <br></br>・Khorumi (Mamia Khatelishvili)
           </p>
+          <p>
+            <b>MC: 川田一輝</b>
+            <span className="image-main main">
+              <img src={kawata} alt="" />
+            </span>
+          </p>
+          <p>
+            1990年大阪生まれ。地元Kiss FM
+            KOBEのラジオDJ・声優・イベントMCなど幅広く活動。
+            子ども達に魚の魅力を伝える「さかなのおにいさん」として書籍の執筆や、テレビ東京「シナぷしゅ」での音楽・アニメーションなども制作。メディア出演・クリエイターとしてもマルチに活動している。
+          </p>
+          <br />
 
           <span className="image-main main">
             <img src={secoundSession} alt="" />
@@ -272,6 +286,8 @@ class Main extends React.Component {
             <br></br>「心も体も笑顔になれる米粉sweets」をお届けしています。
           </p>
 
+          <br />
+
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
           </span>
@@ -298,6 +314,29 @@ class Main extends React.Component {
             <br></br>・Solfeggio (Arvo Pärt)
             <br></br>・Proverb (Steve Reich)
           </p>
+          <p>
+            <b>ストーリーテラー: 川田一輝</b>
+            <span className="image-main main">
+              <img src={kawata} alt="" />
+            </span>
+          </p>
+          <br />
+          <p>
+            <b>シンセサイザー伴奏: 小鳥舞</b>
+            <span className="image-main main">
+              <img src={odorimai} alt="" />
+            </span>
+          </p>
+          <p>
+            武庫川女子大学音楽学部演奏学科卒業。兵庫教育大学大学院修了。
+            武庫川女子大学新人演奏会をはじめ、リーガロイヤルホテルでのコンサート等、様々な演奏会に出演。また、神戸フィルハーモニック、ウクライナ・リヴィウ国際音楽祭にてLviv
+            Virtuosos Academic Chamber Ochestraと共演。
+            東京国際芸術協会より受講費全額助成を受け、ウィーン国立音楽大学マスタークラスを修了し、選抜者コンサートに出演。ディプロマを取得。
+            現在、アンサンブルピアニストとして幅広く活動中。
+            混声合唱フロイデ21、関西大学初等部合唱部常任ピアニスト。
+            これまでに、奈良田朋子、木下千代の各氏に師事。
+          </p>
+
           {close}
         </article>
 
