@@ -135,7 +135,13 @@ class Main extends React.Component {
           <br />
           <h3>合唱協賛</h3>
 
-          <b>Ti Amo</b>
+          <a
+            className="use-border"
+            href="https://twitter.com/tiamobbs"
+            target="_blank"
+          >
+            <b>Ti Amo</b>
+          </a>
           <span className="image-main main">
             <img src={tiamo} alt="" />
           </span>
@@ -143,7 +149,13 @@ class Main extends React.Component {
             アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。
           </p>
           <br />
-          <b>合唱団Volare</b>
+          <a
+            className="use-border"
+            href="https://twitter.com/choirvolare"
+            target="_blank"
+          >
+            <b>合唱団Volare</b>
+          </a>
           <span className="image-main main">
             <img src={volare} alt="" />
           </span>
@@ -151,7 +163,13 @@ class Main extends React.Component {
             こんにちは！　合唱団Volareです。長田高校音楽部のOB・OG合唱団として発足して早15年。現代曲とポップスアレンジを中心に楽しく歌っています♪
           </p>
           <br />
-          <b>しゃち子。</b>
+          <a
+            className="use-border"
+            href="https://twitter.com/syachi_girls"
+            target="_blank"
+          >
+            <b>しゃち子。</b>
+          </a>
           <span className="image-main main">
             <img src={shachiko} alt="" />
           </span>
@@ -159,7 +177,13 @@ class Main extends React.Component {
             名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！
           </p>
           <br />
-          <b>花みずき</b>
+          <a
+            className="use-border"
+            href="https://twitter.com/chor_hanamizuki"
+            target="_blank"
+          >
+            <b>花みずき</b>
+          </a>
           <span className="image-main main">
             <img src={hanamizuki} alt="" />
           </span>
@@ -169,7 +193,13 @@ class Main extends React.Component {
             Busto 氏、作曲家Ambrož Čopi 氏によるレッスンを受ける。
           </p>
           <br />
-          <b>Man de rart</b>
+          <a
+            className="use-border"
+            href="https://twitter.com/Man_de_rart"
+            target="_blank"
+          >
+            <b>Man de rart</b>
+          </a>
           <span className="image-main main">
             <img src={manderart} alt="" />
           </span>
@@ -180,7 +210,9 @@ class Main extends React.Component {
 
           <br />
           <h3>飲食協賛</h3>
-          <b>ICHIJI</b>
+          <a className="use-border" href="https://ichiji.net/" target="_blank">
+            <b>ICHIJI</b>
+          </a>
           <span className="image-main main">
             <img src={ichiji} alt="" />
           </span>
@@ -201,7 +233,13 @@ class Main extends React.Component {
             皆さんの生活に寄り添うように楽しめて、誰かと食べると会話が生まれる。そんな世界を目指しています。
             <br></br>
             <br></br>
-            <b>ゆげ焙煎所</b>
+            <a
+              className="use-border"
+              href="https://yugecoffee.com/"
+              target="_blank"
+            >
+              <b>ゆげ焙煎所</b>
+            </a>
             <span className="image-main main">
               <img src={yuge} alt="" />
             </span>
@@ -217,7 +255,13 @@ class Main extends React.Component {
             <br></br>取り組んでいます。
             <br></br>
             <br></br>
-            <b>米粉sweets kinun.</b>
+            <a
+              className="use-border"
+              href="https://www.komekosweets-kinun.com/"
+              target="_blank"
+            >
+              <b>米粉sweets kinun.</b>
+            </a>
             <span className="image-main main">
               <img src={kinun} alt="" />
             </span>
@@ -292,7 +336,7 @@ class Main extends React.Component {
             演奏会への入場チケットは
             <a
               className="use-border"
-              href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html"
+              href="https://twitter.com/tiamobbs?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"
             >
               こちら
