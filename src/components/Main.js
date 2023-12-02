@@ -123,7 +123,13 @@ class Main extends React.Component {
             <br></br>・Khorumi (Mamia Khatelishvili)
           </p>
           <p>
-            <b>MC: 川田一輝</b>
+            <a
+              className="use-border"
+              href="https://twitter.com/honmachi169/"
+              target="_blank"
+            >
+              <b>MC: 川田一輝</b>
+            </a>
             <span className="image-main main">
               <img src={kawata} alt="" />
             </span>
@@ -315,7 +321,13 @@ class Main extends React.Component {
             <br></br>・Proverb (Steve Reich)
           </p>
           <p>
-            <b>ストーリーテラー: 川田一輝</b>
+            <a
+              className="use-border"
+              href="https://twitter.com/honmachi169/"
+              target="_blank"
+            >
+              <b>ストーリーテラー: 川田一輝</b>
+            </a>
             <span className="image-main main">
               <img src={kawata} alt="" />
             </span>
@@ -375,7 +387,7 @@ class Main extends React.Component {
             演奏会への入場チケットは
             <a
               className="use-border"
-              href="https://twitter.com/tiamobbs?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              href="https://passmarket.yahoo.co.jp/event/show/detail/02my1a1uzic31.html"
               target="_blank"
             >
               こちら
