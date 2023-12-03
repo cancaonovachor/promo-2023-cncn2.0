@@ -202,7 +202,7 @@ class Main extends React.Component {
             href="https://twitter.com/chor_hanamizuki"
             target="_blank"
           >
-            <b>花みずき</b>
+            <b>混声合唱団「花みずき」</b>
           </a>
           <span className="image-main main">
             <img src={hanamizuki} alt="" />
