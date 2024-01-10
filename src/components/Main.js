@@ -396,18 +396,28 @@ class Main extends React.Component {
             デジタルアートと合唱の融合など、新しい演奏会のスタイルを是非とも現場にてお聞き下さい。
           </p>
           <br />
-          {/* <h3>配信チケット (ZAIKO)</h3>
+          <h3>配信チケット (ZAIKO)</h3>
           <span className="image-main main">
-          <a className="use-border" href="https://zaiko.io/event/354406" target="_blank">
-            <img src={haishin} alt="" />
+            <a
+              className="use-border"
+              href="https://cancaonova.zaiko.io/item/361641"
+              target="_blank"
+            >
+              <img src={haishin} alt="" />
             </a>
           </span>
           <p>
-          配信チケットは
-          <a className="use-border" href="" target="_blank">こちら</a>
-          <br/>
-          遠方にお住まいの方や当日現地にお越し頂けない方も、こちらよりライブ配信を視聴いただけます。
-          </p> */}
+            配信チケットは
+            <a
+              className="use-border"
+              href="https://cancaonova.zaiko.io/item/361641"
+              target="_blank"
+            >
+              こちら
+            </a>
+            <br />
+            遠方にお住まいの方や当日現地にお越し頂けない方も、こちらよりライブ配信を視聴いただけます。
+          </p>
           {close}
         </article>
       </div>
