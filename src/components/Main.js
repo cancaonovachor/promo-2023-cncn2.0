@@ -16,6 +16,7 @@ import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 import kawata from '../images/kawata.png'
 import odorimai from '../images/odorimai.jpg'
+import ito from '../images/ito.jpg'
 
 class Main extends React.Component {
   render() {
@@ -151,6 +152,17 @@ class Main extends React.Component {
           <p>
             料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
             <br></br>時間： 14:00〜
+          </p>
+          <br />
+          <h3>基調講演</h3>
+
+          <b>伊東恵司</b>
+          <span className="image-main main">
+            <img src={ito} alt="" />
+          </span>
+          <p>
+            あらゆる形式・ジャンルの合唱指導を行い、宝塚国際室内合唱コンクール等でグランプリ、セギッツィ国際合唱コンクールでは総合2位とMauro
+            Chiocci特別賞を受賞、世界合唱シンポジウムでは2度にわたり特別招待演奏団体に選出され、講師も務める。現在、全国各地で審査員や合唱指導を引き受けるほか「アルティ声楽アンサンブル」等の各種合唱フェスティバルの企画や主催を行っている。現在、日本合唱指揮者協会理事。カワイ出版より「合唱エクササイズ(育成編･運営編・日本語編)」他、ブレーン株式会社より「合唱のイントロダクション」を上梓。「みなづきみのり」のペンネームで作詞活動展開中。
           </p>
           <br />
           <h3>合唱協賛</h3>
