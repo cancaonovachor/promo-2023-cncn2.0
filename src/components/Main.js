@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import secoundSession from '../images/2nd-session.jpg'
 import zentai from '../images/zentai-ticc.jpg'
 import ichiji from '../images/ichiji.jpg'
@@ -19,8 +19,9 @@ import odorimai from '../images/odorimai.jpg'
 import ito from '../images/ito.jpg'
 import { useMediaQuery } from 'react-responsive'
 
+
 const useSp = () => {
-  return useMediaQuery({ maxWidth: 500 })
+  return useMediaQuery({ maxWidth: 500 }, {noSsr: true})
 }
 
 const Main = (props) => {
@@ -32,7 +33,23 @@ const Main = (props) => {
       }}
     ></div>
   )
-  const isSp = useSp()
+  // const isSp = useSp()
+  const [isSp, setIsSp] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSp(window.innerWidth <= 500);
+    };
+
+    // コンポーネントマウント時に一度検出を実行
+    handleResize();
+
+    // ウィンドウのリサイズイベントに応じて検出を実行
+    window.addEventListener('resize', handleResize);
+
+    // コンポーネントアンマウント時にイベントリスナーをクリーンアップ
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div
@@ -445,13 +462,13 @@ const Main = (props) => {
         style={{ display: 'none' }}
       >
         <h2 className="major">Session Docs</h2>
-        <h3>投影資料</h3>
+        <h3>投影資料＆ポスターセッション資料</h3>
         {isSp ? (
           <iframe
             src="https://docs.google.com/presentation/d/e/2PACX-1vQlQDa_K5qV4HKGYQv-7YLylUGy57KVaR8-7At_6_-sma0NTVxirPlTM-Ap_Kb-IaQMXMmkZ_5Mok4g/embed?start=false&loop=false&delayms=3000"
             frameborder="0"
             width="100%"
-            height="300"
+            height="270"
             allowfullscreen="true"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
