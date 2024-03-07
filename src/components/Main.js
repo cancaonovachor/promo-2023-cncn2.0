@@ -484,7 +484,12 @@ const Main = (props) => {
             webkitallowfullscreen="true"
           ></iframe>
         )}
-        <p>今回の演奏会で使用する投影資料です。ご自由にご覧ください。</p>
+        <p>今回の演奏会で使用する投影資料です。ご自由にご覧ください。<br />
+          元のファイルは
+          <a className="use-border" href="https://docs.google.com/presentation/d/12DQKdC1DXTIy3o9CrehAbub7xcfuhy1_IwsqG7s-TFM/edit?usp=sharing">
+            こちら
+          </a>
+        </p>
         <br />
         <br />
         <h3>楽曲曲説＆パンフレット</h3>
@@ -509,7 +514,12 @@ const Main = (props) => {
             webkitallowfullscreen="true"
           ></iframe>
         )}
-        <p>CNCN 2.0 の楽曲解説及びパンフレットです</p>
+        <p>CNCN 2.0 の楽曲解説及びパンフレットです。<br />
+        元のファイルは
+        <a className="use-border" href="https://docs.google.com/presentation/d/1qtWYi8PeojaoP57JlrSrfjPfUm46qxFMtiJW3wNg5P0/edit?usp=sharing">
+          こちら
+        </a>
+        </p>
         <br />
         {close}
       </article>
