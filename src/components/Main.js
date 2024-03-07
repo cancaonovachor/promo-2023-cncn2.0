@@ -486,6 +486,31 @@ const Main = (props) => {
         )}
         <p>今回の演奏会で使用する投影資料です。ご自由にご覧ください。</p>
         <br />
+        <br />
+        <h3>楽曲曲説＆パンフレット</h3>
+        {isSp ? (
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vS66mDdHx_Svz8XGv1l4ApKFFZF5KrQ2h8dcw5Lezhdo_831d3GtMhp7uWaDtnBpSip1JmjMMfQBkdr/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="100%"
+            height="270"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        ) : (
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vS66mDdHx_Svz8XGv1l4ApKFFZF5KrQ2h8dcw5Lezhdo_831d3GtMhp7uWaDtnBpSip1JmjMMfQBkdr/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="100%"
+            height="565"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+          ></iframe>
+        )}
+        <p>CNCN 2.0 の楽曲解説及びパンフレットです</p>
+        <br />
         {close}
       </article>
     </div>

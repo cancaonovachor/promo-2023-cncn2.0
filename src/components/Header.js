@@ -33,7 +33,7 @@ const Header = (props) => {
           <p>2nd Session 14:00-15:30</p>
           <p>3rd Session 15:30-16:30</p>
           <h2>Design and Creative Center Kobe KIITO</h2>
-          <h2>
+          <h1>
             <a
               className="use-border"
               href="javascript:;"
@@ -43,7 +43,7 @@ const Header = (props) => {
             >
               Session Docs
             </a>
-          </h2>
+          </h1>
         </div>
       </div>
       <nav>
